@@ -16,7 +16,123 @@ Mariana-Mena:web-media-centro Mariana$ ls
 README.md	exercises	lectures	references
 
 Ejercicio 1.03:
+
+Mariana-Mena:~ Mariana$ ls
+AT.postflight.1139  Nombre.class    anaconda
+Adlm      Nombre.java   decrypt
+Applications    Nombre.java~    ecommerce_v1.thmx
+Calibre Library   Pictures    hs_err_pid1963.log
+Desktop     PowerExp.class    hs_err_pid521.log
+Documents   PowerExp.java   literate-goggles
+Downloads   PowerExp.java~    perl5
+Dropbox     Projects    pymel.log
+Epubor      Public      setuptools-3.4.1.zip
+Library     Sites     web-media-centro
+Movies      StuffIt     xgen
+Music     VirtualBox VMs
+NetBeansProjects  a.out
+
 Ejercicio 1.04:
+
+Mariana-Mena:~ Mariana$ ls -la
+total 2296
+drwxr-xr-x@ 97 Mariana  staff    3298 Aug 26 13:20 .
+drwxr-xr-x   5 root     admin     170 Feb 29 00:13 ..
+-r--------   1 Mariana  staff       7 Feb 29 00:43 .CFUserTextEncoding
+-rw-r--r--@  1 Mariana  staff   22532 Aug 26 10:46 .DS_Store
+drwxr-xr-x   9 Mariana  staff     306 May 21 09:25 .Epubor
+drwxr-xr-x   3 Mariana  staff     102 Sep 10  2013 .Extensis
+drwx------   2 Mariana  staff      68 Aug 26 09:20 .Trash
+drwxr-xr-x   4 Mariana  staff     136 Sep 10  2013 .adobe
+drwxr-xr-x   3 Mariana  staff     102 May 24 18:30 .anaconda
+drwxr-xr-x   4 Mariana  staff     136 Aug  9 16:47 .android
+-rw-r--r--   1 Mariana  staff     140 Feb  9  2014 .appletviewer
+drwxr-xr-x  13 Mariana  staff     442 Feb 29 15:06 .atom
+-rw-------   1 Mariana  staff   11594 Aug 26 13:33 .bash_history
+-rw-r--r--   1 Mariana  staff     855 May 24 18:22 .bash_profile
+-rw-r--r--   1 Mariana  staff     769 Oct  5  2015 .bash_profile-anaconda.bak
+-rw-r--r--   1 Mariana  staff     602 Mar 31  2014 .bash_profile.pysave
+drwxr-xr-x  41 Mariana  staff    1394 Aug 26 14:09 .bash_sessions
+-rw-r--r--   1 Mariana  staff      48 Oct 31  2013 .bashrc
+drwx------   3 Mariana  staff     102 May 24 18:34 .cache
+drwx------  20 Mariana  staff     680 Mar 16 10:38 .canopy
+drwxr-xr-x   3 Mariana  staff     102 Jun 21 16:04 .conda
+drwxr-xr-x   3 Mariana  staff     102 May 24 18:30 .condamanager
+drwxr-xr-x  11 Mariana  staff     374 Jan  2  2016 .config
+drwxr-xr-x   2 Mariana  staff      68 May 24 18:21 .continuum
+drwx------   3 Mariana  staff     102 Aug 20  2014 .cups
+drwxr-xr-x   3 Mariana  staff     102 May 20 11:05 .decrypter
+drwxr-xr-x   3 Mariana  staff     102 Mar 31  2014 .distlib
+-rw-r--r--   1 Mariana  staff    1402 May 11  2015 .drjava
+drwx------  10 Mariana  staff     340 Mar 20  2015 .dropbox
+drwxr-xr-x  10 Mariana  staff     340 Apr 10  2015 .dvdcss
+-rw-r--r--   1 Mariana  staff    4121 May 13 09:09 .eaglerc
+-rw-r--r--@  1 Mariana  staff      17 Aug 25  2014 .ebbtmofe
+-rw-r--r--@  1 Mariana  staff      17 Dec 30  2013 .ebbtmxnn
+-rw-r--r--   1 Mariana  staff    2436 Mar 16 08:58 .enstaller4rc
+-rw-r--r--   1 Mariana  staff     164 Aug 26 13:20 .gitconfig
+drwxr-xr-x   3 Mariana  staff     102 Feb 14  2014 .idlerc
+-rw-r--r--   1 Mariana  staff     156 Mar 29  2014 .install4j
+drwxr-xr-x   6 Mariana  staff     204 Feb  3  2016 .ipython
+-rw-r--r--   1 Mariana  staff     997 Oct 30  2013 .irb_history
+drwxr-xr-x   3 Mariana  staff     102 Mar 15  2015 .jssc
+drwxr-xr-x   4 Mariana  staff     136 Mar 16 07:35 .jupyter
+drwxr-xr-x   3 Mariana  staff     102 Apr 18  2015 .local
+-rwxr-----@  1 Mariana  staff     177 Sep 10  2013 .login
+drwxr-xr-x   4 Mariana  staff     136 Aug 25 22:25 .matplotlib
+drwxr-xr-x   3 Mariana  staff     102 Feb 18  2015 .mono
+drwxrwxrwx   3 Mariana  staff     102 Dec  4  2014 .nchsoftware
+drwxr-xr-x@  7 Mariana  staff     238 Aug 21 14:39 .oracle_jre_usage
+-rw-------   1 Mariana  staff       0 Feb 27  2014 .ovftool.ssldb
+drwxr-xr-x   3 Mariana  staff     102 Oct 31  2013 .perlbrew
+-rwxr-----@  1 Mariana  staff     462 Apr  1  2014 .profile
+-rwxrwxrwx@  1 Mariana  staff      55 Aug 23  2014 .rdzfbmarc
+-rwxrwxrwx@  1 Mariana  staff      60 Nov 17  2014 .rdzgwkarc
+-rw-------   1 Mariana  staff    1024 Aug 16 19:54 .rnd
+-rw-rw-rw-   1 Mariana  staff      30 Jun 16 19:06 .sesi_licenses.pref
+drwxr-xr-x  14 Mariana  staff     476 Aug 25 22:38 .spyder2
+drwx------   5 Mariana  staff     170 Jul 21  2015 .ssh
+drwxr-xr-x   6 Mariana  staff     204 Feb 18  2014 .subversion
+drwxr-xr-x   4 Mariana  staff     136 Jan  4  2014 .thumbnails
+-rw-------   1 Mariana  staff     760 Aug 26 10:20 .viminfo
+drwxr-xr-x   2 Mariana  staff      68 Jun 16 18:12 .wapi
+-rw-r--r--   1 Mariana  staff     574 Mar 31  2014 AT.postflight.1139
+drwxrwxrwx   4 Mariana  staff     136 Sep  8  2015 Adlm
+drwxr-xr-x  23 Mariana  staff     782 Aug 24 15:59 Applications
+drwxr-xr-x  12 Mariana  staff     408 Aug 23 23:22 Calibre Library
+drwx------+ 18 Mariana  staff     612 Aug 26 13:23 Desktop
+drwx------+ 59 Mariana  staff    2006 Aug 24 09:18 Documents
+drwx------+ 62 Mariana  staff    2108 Aug 26 13:40 Downloads
+drwx------@ 10 Mariana  staff     340 Feb 29 10:12 Dropbox
+drwxr-xr-x   4 Mariana  staff     136 May 20 12:20 Epubor
+drwx------@ 80 Mariana  staff    2720 Jul 11 13:20 Library
+drwx------+  6 Mariana  staff     204 Aug  9 17:06 Movies
+drwx------+  9 Mariana  staff     306 Feb 29 09:37 Music
+drwxr-xr-x   3 Mariana  staff     102 Jan 30  2014 NetBeansProjects
+-rw-r--r--   1 Mariana  staff     748 Mar  6  2014 Nombre.class
+-rw-r--r--   1 Mariana  staff     422 Mar  6  2014 Nombre.java
+-rw-r--r--   1 Mariana  staff     107 Mar  6  2014 Nombre.java~
+drwx------+ 57 Mariana  staff    1938 Aug 23 23:11 Pictures
+-rw-r--r--   1 Mariana  staff     684 Apr  2  2014 PowerExp.class
+-rw-r--r--   1 Mariana  staff     271 Apr  2  2014 PowerExp.java
+-rw-r--r--   1 Mariana  staff      71 Apr  2  2014 PowerExp.java~
+drwxr-xr-x   4 Mariana  staff     136 Apr 21  2015 Projects
+drwxr-xr-x+  4 Mariana  staff     136 Sep  6  2013 Public
+drwxr-xr-x+  3 Mariana  staff     102 Feb 28 23:10 Sites
+drwx------   3 Mariana  staff     102 Mar 29  2014 StuffIt
+drwxr-xr-x   3 Mariana  staff     102 Sep 14  2013 VirtualBox VMs
+-rwxr-xr-x   1 Mariana  staff    8496 Feb  5  2014 a.out
+drwxr-xr-x  23 Mariana  staff     782 Aug 25 22:24 anaconda
+drwxr-xr-x   2 Mariana  staff      68 May 20 11:05 decrypt
+-rw-r--r--@  1 Mariana  staff   45750 Nov  6  2015 ecommerce_v1.thmx
+-rw-r--r--   1 Mariana  staff   53353 Mar 12  2015 hs_err_pid1963.log
+-rw-r--r--   1 Mariana  staff   55136 Dec  8  2015 hs_err_pid521.log
+drwxr-xr-x   4 Mariana  staff     136 Aug 26 09:45 literate-goggles
+drwxr-xr-x   3 Mariana  staff     102 Oct 31  2013 perl5
+-rw-r--r--   1 Mariana  staff       0 Jul 29 22:20 pymel.log
+-rw-r--r--   1 Mariana  staff  843092 Mar 31  2014 setuptools-3.4.1.zip
+drwxr-xr-x   9 Mariana  staff     306 Aug 26 10:46 web-media-centro
+drwxr-xr-x   2 Mariana  staff      68 Sep  8  2015 xgen
 
 Ejercicio 1.05:
 

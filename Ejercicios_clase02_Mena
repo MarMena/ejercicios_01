@@ -1,23 +1,24 @@
 Mariana Mena Tello
 Ejercicios - Clase 02 
 
+---------- Segunda parte -----------
 
-Ejercicio 01:
+Ejercicio 1.01:
 
 Mariana-Mena:web-media-centro Mariana$ pwd
 /Users/Mariana/web-media-centro
 
 A dos niveles del root folder
 
-Ejercicio 02:
+Ejercicio 1.02:
 
 Mariana-Mena:web-media-centro Mariana$ ls
 README.md	exercises	lectures	references
 
-Ejercicio 03:
-Ejercicio 04:
+Ejercicio 1.03:
+Ejercicio 1.04:
 
-Ejercicio 05:
+Ejercicio 1.05:
 
 Mariana-Mena:~ Mariana$ cd Desktop/
 Mariana-Mena:Desktop Mariana$ ls
@@ -33,7 +34,7 @@ Thumbs.db
 ensayos_linea_punto_layout.indd
 hosts copy.zip
 
-Ejercicio 06:
+Ejercicio 1.06:
 
 Mariana-Mena:Desktop Mariana$ mkdir test
 Mariana-Mena:Desktop Mariana$ ls
@@ -64,7 +65,7 @@ Mariana-Mena:test Mariana$ cd hello
 Mariana-Mena:hello Mariana$ ls
 mena
 
-Ejercicio 07:
+Ejercicio 1.07:
 
 Mariana-Mena:hello Mariana$ ls
 mena
@@ -78,18 +79,18 @@ Mariana-Mena:world Mariana$ ls
 test_a.txt	test_b.txt
 Mariana-Mena:world Mariana$ 
 
-Ejercicio 08:
+Ejercicio 1.08:
 
 Mariana-Mena:world Mariana$ ls
 test_a.txt	test_b.txt
 
-Ejercicio 09:
+Ejercicio 1.09:
 
 Mariana-Mena:world Mariana$ rm test_a.txt 
 Mariana-Mena:world Mariana$ ls
 test_b.txt
 
-Ejercicio 10:
+Ejercicio 1.10:
 
 Mariana-Mena:world Mariana$ cp test_b.txt ../hello/mena
 Mariana-Mena:world Mariana$ cd ..
@@ -101,7 +102,7 @@ Mariana-Mena:mena Mariana$ ls
 test_b.txt
 Mariana-Mena:mena Mariana$
 
-Ejercicio 11:
+Ejercicio 1.11:
 
 Mariana-Mena:Desktop Mariana$ sudo mv test /
 Mariana-Mena:Desktop Mariana$ cd ..
@@ -119,7 +120,7 @@ bin				usr
 cores				var
 dev
 
-Ejercicio 12:
+Ejercicio 1.12:
 
 Mariana-Mena:/ Mariana$ cd test
 Mariana-Mena:test Mariana$ ls
@@ -128,7 +129,7 @@ Mariana-Mena:test Mariana$ rm -r world
 Mariana-Mena:test Mariana$ ls
 hello
 
-Ejercicio 13:
+Ejercicio 1.13:
 
 Mariana-Mena:test Mariana$ man echo
 
@@ -159,7 +160,7 @@ BSD                             April 12, 2003                             BSD
 
 ---------- Segunda parte -----------
 
-Ejercicio 01: 
+Ejercicio 2.01: 
 
 Mariana-Mena:Desktop Mariana$ git clone https://github.com/diegoMontesinos/web-media-centro.git
 Cloning into 'web-media-centro'...
@@ -170,7 +171,7 @@ Receiving objects: 100% (159/159), 3.18 MiB | 745.00 KiB/s, done.
 Resolving deltas: 100% (31/31), done.
 Checking connectivity... done.
 
-Ejercicio 02:
+Ejercicio 2.02:
 
 Mariana-Mena:Desktop Mariana$ git clone https://github.com/MarMena/ejercicios_01.git
 Cloning into 'ejercicios_01'...
@@ -179,4 +180,78 @@ remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
 Unpacking objects: 100% (3/3), done.
 Checking connectivity... done.
 
-Ejercicio 03: 
+Ejercicio 2.03: 
+
+Mariana-Mena:Desktop Mariana$ mv test ejercicios_01
+Mariana-Mena:ejercicios_01 Mariana$ cd ..
+Mariana-Mena:Desktop Mariana$ mv Ejercicios_clase02_Mena ejercicios_01/
+Mariana-Mena:Desktop Mariana$ cd ejercicios_01/
+Mariana-Mena:ejercicios_01 Mariana$ ls
+Ejercicios_clase02_Mena	README.md		test
+
+Ejercicio 2.04:
+
+Mariana-Mena:ejercicios_01 Mariana$ git add Ejercicios_clase02_Mena 
+Mariana-Mena:ejercicios_01 Mariana$ git commit -m "Primera modificacion para ejercicio en clase."
+[master a082790] Primera modificacion para ejercicio en clase.
+ 1 file changed, 182 insertions(+)
+ create mode 100644 Ejercicios_clase02_Mena
+
+ Ejercicio 2.05: 
+
+Mariana-Mena:ejercicios_01 Mariana$ git push
+warning: push.default is unset; its implicit value is changing in
+Git 2.0 from 'matching' to 'simple'. To squelch this message
+and maintain the current behavior after the default changes, use:
+
+  git config --global push.default matching
+
+To squelch this message and adopt the new behavior now, use:
+
+  git config --global push.default simple
+
+When push.default is set to 'matching', git will push local branches
+to the remote branches that already exist with the same name.
+
+In Git 2.0, Git will default to the more conservative 'simple'
+behavior, which only pushes the current branch to the corresponding
+remote branch that 'git pull' uses to update the current branch.
+
+See 'git help config' and search for 'push.default' for further information.
+(the 'simple' mode was introduced in Git 1.7.11. Use the similar mode
+'current' instead of 'simple' if you sometimes use older versions of Git)
+
+Username for 'https://github.com': MarMena
+Password for 'https://MarMena@github.com': 
+Counting objects: 4, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 2.03 KiB | 0 bytes/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/MarMena/ejercicios_01.git
+   a9cbebd..a082790  master -> master
+
+Ejercicio 2.07:
+
+Mariana-Mena:Desktop Mariana$ git clone https://github.com/CsarNazario/Sigifredo.git
+Cloning into 'Sigifredo'...
+remote: Counting objects: 3, done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (3/3), done.
+Checking connectivity... done.
+
+Ejercicio 2.08:
+
+Mariana-Mena:ejercicios_01 Mariana$ git push origin master
+Username for 'https://github.com': MarMena
+Password for 'https://MarMena@github.com': 
+Everything up-to-date
+
+Ejercicio 2.09:
+
+Mariana-Mena:Sigifredo Mariana$ git pull origin master
+From https://github.com/CsarNazario/Sigifredo
+ * branch            master     -> FETCH_HEAD
+Already up-to-date.
+Mariana-Mena:Sigifredo Mariana$
+

@@ -1,0 +1,182 @@
+Mariana Mena Tello
+Ejercicios - Clase 02 
+
+
+Ejercicio 01:
+
+Mariana-Mena:web-media-centro Mariana$ pwd
+/Users/Mariana/web-media-centro
+
+A dos niveles del root folder
+
+Ejercicio 02:
+
+Mariana-Mena:web-media-centro Mariana$ ls
+README.md	exercises	lectures	references
+
+Ejercicio 03:
+Ejercicio 04:
+
+Ejercicio 05:
+
+Mariana-Mena:~ Mariana$ cd Desktop/
+Mariana-Mena:Desktop Mariana$ ls
+$RECYCLE.BIN
+(Design Science Collection) Amy C. Edmondson (auth.)-A Fuller Explanation_ The Synergetic Geometry of R. Buckminster Fuller-Birkhäuser Basel (1986).pdf
+Claude E Shannon, Warren Weaver, Shannon-Mathematical theory of communication-University of Illinois Press (1998).pdf
+R. Buckminster Fuller, E.J. Applewhite-Synergetics Explorations in the Geometry of Thinking-Scribner (1975).pdf
+R. Buckminster Fuller-Operating Manual for Spaceship Earth-Lars Müller Publishers (2008).pdf
+Screen Shot 2016-08-25 at 11.08.01 AM.png
+Screen Shot 2016-08-25 at 11.18.28 AM.png
+THE_DYMAXION_HOUSE_PROJECT.PDF
+Thumbs.db
+ensayos_linea_punto_layout.indd
+hosts copy.zip
+
+Ejercicio 06:
+
+Mariana-Mena:Desktop Mariana$ mkdir test
+Mariana-Mena:Desktop Mariana$ ls
+$RECYCLE.BIN
+(Design Science Collection) Amy C. Edmondson (auth.)-A Fuller Explanation_ The Synergetic Geometry of R. Buckminster Fuller-Birkhäuser Basel (1986).pdf
+Claude E Shannon, Warren Weaver, Shannon-Mathematical theory of communication-University of Illinois Press (1998).pdf
+Ejercicios_clase02_Mena
+R. Buckminster Fuller, E.J. Applewhite-Synergetics Explorations in the Geometry of Thinking-Scribner (1975).pdf
+R. Buckminster Fuller-Operating Manual for Spaceship Earth-Lars Müller Publishers (2008).pdf
+Screen Shot 2016-08-25 at 11.08.01 AM.png
+Screen Shot 2016-08-25 at 11.18.28 AM.png
+THE_DYMAXION_HOUSE_PROJECT.PDF
+Thumbs.db
+ensayos_linea_punto_layout.indd
+hosts copy.zip
+test
+Mariana-Mena:Desktop Mariana$ cd test
+Mariana-Mena:test Mariana$ mkdir hello
+Mariana-Mena:test Mariana$ cd hello
+Mariana-Mena:hello Mariana$ mkdir mena
+Mariana-Mena:hello Mariana$ cd ..
+Mariana-Mena:test Mariana$ mkdir world
+Mariana-Mena:test Mariana$ ls
+hello	world
+Mariana-Mena:test Mariana$ hello
+-bash: hello: command not found
+Mariana-Mena:test Mariana$ cd hello
+Mariana-Mena:hello Mariana$ ls
+mena
+
+Ejercicio 07:
+
+Mariana-Mena:hello Mariana$ ls
+mena
+Mariana-Mena:hello Mariana$ cd ..
+Mariana-Mena:test Mariana$ cd world
+Mariana-Mena:world Mariana$ echo "test" >> test_a.txt
+Mariana-Mena:world Mariana$ ls
+test_a.txt
+Mariana-Mena:world Mariana$ echo "test" >> test_b.txt
+Mariana-Mena:world Mariana$ ls
+test_a.txt	test_b.txt
+Mariana-Mena:world Mariana$ 
+
+Ejercicio 08:
+
+Mariana-Mena:world Mariana$ ls
+test_a.txt	test_b.txt
+
+Ejercicio 09:
+
+Mariana-Mena:world Mariana$ rm test_a.txt 
+Mariana-Mena:world Mariana$ ls
+test_b.txt
+
+Ejercicio 10:
+
+Mariana-Mena:world Mariana$ cp test_b.txt ../hello/mena
+Mariana-Mena:world Mariana$ cd ..
+Mariana-Mena:test Mariana$ ls
+hello	world
+Mariana-Mena:test Mariana$ cd hello
+Mariana-Mena:hello Mariana$ cd mena
+Mariana-Mena:mena Mariana$ ls
+test_b.txt
+Mariana-Mena:mena Mariana$
+
+Ejercicio 11:
+
+Mariana-Mena:Desktop Mariana$ sudo mv test /
+Mariana-Mena:Desktop Mariana$ cd ..
+Mariana-Mena:Users Mariana$  cd ..
+Mariana-Mena:/ Mariana$ ls
+Applications			etc
+Developer			home
+Library				installer.failurerequests
+Network				net
+System				private
+User Information		sbin
+Users				test
+Volumes				tmp
+bin				usr
+cores				var
+dev
+
+Ejercicio 12:
+
+Mariana-Mena:/ Mariana$ cd test
+Mariana-Mena:test Mariana$ ls
+hello	world
+Mariana-Mena:test Mariana$ rm -r world
+Mariana-Mena:test Mariana$ ls
+hello
+
+Ejercicio 13:
+
+Mariana-Mena:test Mariana$ man echo
+
+     -n    Do not print the trailing newline character.  This may also be
+           achieved by appending `\c' to the end of the string, as is done by
+           iBCS2 compatible systems.  Note that this option as well as the
+           effect of `\c' are implementation-defined in IEEE Std 1003.1-2001
+           (``POSIX.1'') as amended by Cor. 1-2002.  Applications aiming for
+           maximum portability are strongly encouraged to use printf(1) to
+           suppress the newline character.
+
+     Some shells may provide a builtin echo command which is similar or iden-
+     tical to this utility.  Most notably, the builtin echo in sh(1) does not
+     accept the -n option.  Consult the builtin(1) manual page.
+
+EXIT STATUS
+     The echo utility exits 0 on success, and >0 if an error occurs.
+
+SEE ALSO
+     builtin(1), csh(1), printf(1), sh(1)
+
+STANDARDS
+     The echo utility conforms to IEEE Std 1003.1-2001 (``POSIX.1'') as
+     amended by Cor. 1-2002.
+
+BSD                             April 12, 2003                             BSD
+(END)
+
+---------- Segunda parte -----------
+
+Ejercicio 01: 
+
+Mariana-Mena:Desktop Mariana$ git clone https://github.com/diegoMontesinos/web-media-centro.git
+Cloning into 'web-media-centro'...
+remote: Counting objects: 159, done.
+remote: Compressing objects: 100% (119/119), done.
+remote: Total 159 (delta 31), reused 154 (delta 29), pack-reused 0
+Receiving objects: 100% (159/159), 3.18 MiB | 745.00 KiB/s, done.
+Resolving deltas: 100% (31/31), done.
+Checking connectivity... done.
+
+Ejercicio 02:
+
+Mariana-Mena:Desktop Mariana$ git clone https://github.com/MarMena/ejercicios_01.git
+Cloning into 'ejercicios_01'...
+remote: Counting objects: 3, done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (3/3), done.
+Checking connectivity... done.
+
+Ejercicio 03: 
